@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastey Kitchen</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--This is not a real business, just trying to be creative-->
+    <!--Logo and page description goes here-->
+    <img id="logo" src="tastey2.png" width="300px" height="300px">
+    <h2>Menu</h2>
+    <p>Hello! We're glad to have you here.<br>
+        Today, we have some very sumptuous delicacies prepared for you, and we cannot wait to have you try them out. Available today are African and continental dishes, prepared with love to make your day.
+    </p>
+    <p> Kindly note that we have the option of delivering your meals, at your convenience. Just let us know what you want, and we will have it delivered to you within the hour.<br>
+        We are always happy to serve our awesome customers!
+    </p>
+
+    <!--Logo and page description ends here-->
+    <h3>Continental Dishes</h3>
+    <div class="cont">
+    
+        <!--Kindly note that images are gotten from google-->
+        <div class="foodie">
+            
+            <img id="food" src="biryani.jpg" width="300px" height="300px">
+            <img id="food" src="chinese.jpg" width="300px" height="300px">
+        </div>
+        
+        <!--Kindly note that these data are completely made up.-->
+        <div class="cont_table">
+            <table>
+                <tr>
+                    <th>Dish</th>
+                    <th>Price Per Plate</th>
+                    <th>Prepare time</th>
+                </tr>
+                <tr>
+                    <td>Chinese rice</td>
+                    <td>$20</td>
+                    <td>30 minutes</td>
+                </tr>
+                <tr>
+                    <td>Korean noodles</td>
+                    <td>$15</td>
+                    <td>10 minutes</td>
+                </tr>
+                <tr>
+                    <td>Sushi</td>
+                    <td>$45</td>
+                    <td>45 minutes</td>
+                </tr>
+                <tr>
+                    <td>Chicken biryani</td>
+                    <td>$50</td>
+                    <td>1 hour</td>
+                </tr>
+                <tr>
+                    <td>Seafood fried rice and turkey</td>
+                    <td>$60</td>
+                    <td>1 hour 30 minutes</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <h3>African Dishes</h3>
+
+    <div class="african">
+        <div class="food">
+            <img id="food" src="ofada.jpg" width="300px" height="250px">
+            <img id="food" src="amala.jpg" width="300px" height="250px">
+        </div>
+
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price Per Plate</th>
+                <th>Prepare time</th>
+            </tr>
+            <tr>
+                <td>Jollof rice and chicken</td>
+                <td>$45</td>
+                <td>1 hour 30 minutes</td>
+            </tr>
+            <tr>
+                <td>Amala and ewedu, with assorted meat</td>
+                <td>$30</td>
+                <td>20 minutes</td>
+            </tr>
+            <tr>
+                <td>Semovita and afang soup, with assorted meat</td>
+                <td>$35</td>
+                <td>30 minutes</td>
+            </tr>
+            <tr>
+                <td>Oil rice, with panla fish</td>
+                <td>$25</td>
+                <td>40 minutes</td>
+            </tr>
+            <tr>
+                <td>Ofada rice and stew, with assorted meat</td>
+                <td>$45</td>
+                <td>45 minutes</td>
+            </tr>
+        </table>
+        <!--Table ends here--> 
+        
+    </div>
+    
+    <p>Yummy right?!<br> Kindly fill out the order form below, to place your orders, and we will have them delivered to your doorsteps!<br><strong>Kindly state preferred delivery time if order is scheduled.</strong> </p>
+    
+
+    <h2>Place Your Orders Here</h2>
+    
+        <form id="orderForm"><!--Order form starts here-->
+            <div class="formDiv">
+                <label for="fullName">
+                    Full name
+                    <input id="fullName" name="Name" placeholder="Brittany..." type="text" autocomplete="additional-name" required>
+                </label>
+    
+                <label for="address">
+                    Address
+                    <input id="address" name="Address" placeholder="Crescent ave..." type="text" autocomplete="address-line1" required>
+                </label>
+    
+                <label for="phoneNumber">
+                    Phone No.
+                    <input id="phoneNumber" name="Phone Number" placeholder="+234..." type="number" required>
+                </label>
+    
+                <label for="orderDetails">
+                    Order details
+                    <input id="orderDetails" name="Order details" placeholder="fried rice..." type="text" required>
+                </label>
+            </div>
+   
+            <label for="submit">
+                <input id="submit" type="submit" value="Submit" class="Submit">
+            </label>
+        </form>
+    
+    <!--Order form ends here-->
+    <div class="apiDiv">
+        <hr>Show me what I sent.
+        <div id="divToShowOurBackendData"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

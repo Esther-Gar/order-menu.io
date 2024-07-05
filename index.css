@@ -1,0 +1,136 @@
+body { background-color: aliceblue;
+    
+}
+#logo {
+    position: relative; left: 550px;
+    border-radius: 100px;
+    border-bottom-right-radius: 200px;
+}
+.foodie {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.foodie img{
+    border-radius: 20px; 
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.cont table{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.african {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.food img {
+    border-radius: 20px; 
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.african table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(8, 1, 109);
+}
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+h3 {
+    font-family: cursive;
+    text-align: center;
+    color: crimson;
+    font-style: oblique;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+tr :hover {background-color: cadetblue;}
+tr:nth-child(even){background-color: rgb(222, 247, 248);}
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #89c2c4;
+    color: white;
+}
+form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex; flex-direction: column;
+}
+label {
+  text-align: center;
+  background-color: #f0f2f3;
+  border-radius: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 12pt;
+    padding: 15px 10px 10px;
+    border: 1px solid rgb(159, 179, 196);
+    border-radius: 10px;
+    background-color: rgb(215, 240, 240);
+    width: 300px;
+    outline: none;
+    box-sizing: border-box;
+}
+.formDiv {
+    display: flex;
+    flex-direction: column;
+}
+#fullName {
+    position: relative; left: 8px;
+}
+#address {
+    position: relative; left: 16px;
+}
+#phoneNumber {
+    position: relative; left: 10px;
+}
+#orderDetails {
+    height: 100px;
+}
+#submit {
+    background-color: #339194;
+    padding: 12px 45px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    position: relative; left: 50px;
+} 
+#submit:hover {
+background-color: rgb(155, 16, 44);
+}
